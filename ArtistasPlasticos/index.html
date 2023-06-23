@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArtistasPlaticos</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <button
+      style="background-image: url('../assets/go-back.png')"
+      class="button"
+      id="goBack"
+      onclick="GoBack()"
+    ></button>
+
+    <h1>Artistas Plásticos</h1>
+    <h2>Clique sobre cada um para saber mais</h2>
+
+    <div class="row">
+      <div class="character">
+        <button
+          style="background-image: url('../assets/tarsila-do-amaral.jpg')"
+          class="button"
+          onclick="Navigate('tarsilaDoAmaral')"
+        ></button>
+        <p class="name">Tarsila do Amaral</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/portinari.jpg')"
+          class="button"
+        ></button>
+        <p class="name">Cândido Portinari</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/anita-malfatti.PNG')"
+          class="button"
+        ></button>
+        <p class="name">Anita Malfatti</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="character">
+        <button
+          style="background-image: url('../assets/victor-brecheret.jpeg')"
+          class="button"
+        ></button>
+        <p class="name">Victor Brecheret</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/oscar-niemeyer.jpeg')"
+          class="button"
+        ></button>
+        <p class="name">Oscar Niemyer</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/di-cavalcanti.jpeg')"
+          class="button"
+        ></button>
+        <p class="name">Di Cavalcanti</p>
+      </div>
+    </div>
+  </body>
+</html>
