@@ -16,6 +16,14 @@ window.addEventListener('load', function () {
       button[1].classList.remove('animate');
     }, 600);
   });
+
+  button[2].addEventListener('click', (e) => {
+    e.preventDefault;
+    button[2].classList.add('animate');
+    setTimeout(() => {
+      button[2].classList.remove('animate');
+    }, 600);
+  });
 });
 
 function Navigate(dst) {

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recomendações</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <button
+      style="background-image: url('../assets/go-back.png')"
+      class="button"
+      id="goBack"
+      onclick="GoBack()"
+    ></button>
+    <button
+      style="background-image: url('../assets/go-back.png')"
+      class="button"
+      id="goUp"
+      onclick="ScrollUp()"
+    ></button>
+    <button
+      style="background-image: url('../assets/go-back.png')"
+      class="button"
+      id="goDown"
+      onclick="ScrollDown()"
+    ></button>
+    <h1>Recomendações</h1>
+    <h2>Clique sobre cada um para saber mais</h2>
+
+    <div class="row">
+      <div class="character">
+        <button
+          style="background-image: url('../assets/bicho-de-sete-cabecas.jpg')"
+          class="button"
+          onclick="Navigate('bichoDeSeteCabecas')"
+        ></button>
+        <p class="name">Bicho de Sete Cabeças (2000)</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/orfeu-negro.jpg')"
+          class="button"
+          onclick="Navigate('orfeuNegro')"
+        ></button>
+        <p class="name">Orfeu Negro (1959)</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/california.jpg')"
+          class="button"
+          onclick="Navigate('california')"
+        ></button>
+        <p class="name">Califórnia (2015)</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="character">
+        <button
+          style="background-image: url('../assets/elena.jpg')"
+          class="button"
+          onclick="Navigate('elena')"
+        ></button>
+        <p class="name">Elena (2012)</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/capitaes-de-areia.jpg')"
+          class="button"
+          onclick="Navigate('capitaesDeAreia')"
+        ></button>
+        <p class="name">Capitães de Areia (2011)</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/bacurau.jpeg')"
+          class="button"
+          onclick="Navigate('bacurau')"
+        ></button>
+        <p class="name">Bacurau (2019)</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="character">
+        <button
+          style="background-image: url('../assets/cabeca-de-nego.jpeg')"
+          class="button"
+          onclick="Navigate('cabecaDeNego')"
+        ></button>
+        <p class="name">Cabeça de Nego (2020)</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/cidade-de-deus.jpg')"
+          class="button"
+          onclick="Navigate('cidadeDeDeus')"
+        ></button>
+        <p class="name">Cidade de Deus (2002)</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/vidas-secas.jpeg')"
+          class="button"
+          onclick="Navigate('vidasSecas')"
+        ></button>
+        <p class="name">Vidas Secas (1963)</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="character">
+        <button
+          style="background-image: url('../assets/central-do-brasil.jpg')"
+          class="button"
+          onclick="Navigate('centralDoBrasil')"
+        ></button>
+        <p class="name">Central do Brasil (1998)</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/a-vida-invisivel.jpg')"
+          class="button"
+          onclick="Navigate('aVidaInvisivel')"
+        ></button>
+        <p class="name">A Vida Invisível (2019)</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/o-auto-da-compatecida.jpg')"
+          class="button"
+          onclick="Navigate('oAutoDaCompadecida')"
+        ></button>
+        <p class="name">O Auto da Compadecida (1999)</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="character">
+        <button
+          style="background-image: url('../assets/carandiru.jpg')"
+          class="button"
+          onclick="Navigate('carandiru')"
+        ></button>
+        <p class="name">Carandiru (2003)</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/o-pagador-de-promessas.jpg')"
+          class="button"
+          onclick="Navigate('oPagadorDePromessas')"
+        ></button>
+        <p class="name">O Pagador de Promessas (1962)</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/jogo-de-cena.jpg')"
+          class="button"
+          onclick="Navigate('jogoDeCena')"
+        ></button>
+        <p class="name">Jogo de Cena (2007)</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="character">
+        <button
+          style="background-image: url('../assets/o-homem-que-copiava.jpg')"
+          class="button"
+          onclick="Navigate('oHomemQueCopiava')"
+        ></button>
+        <p class="name">O Homem que Copiava (2003)</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/macunaima-filme.jpg')"
+          class="button"
+          onclick="Navigate('macunaima')"
+        ></button>
+        <p class="name">Macunaíma (1969)</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/a-ultima-floresta.jpg')"
+          class="button"
+          onclick="Navigate('aUltimaFloresta')"
+        ></button>
+        <p class="name">A Última Floresta (2021)</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="character">
+        <button
+          style="background-image: url('../assets/di-cavalcanti-curta.webp')"
+          class="button"
+          onclick="Navigate('diCavalcantiFilme')"
+        ></button>
+        <p class="name">Di Cavalcanti - Curta Metragem (1977)</p>
+      </div>
+
+      <div class="character">
+        <button
+          style="background-image: url('../assets/que-horas-ela-volta.jpg')"
+          class="button"
+          onclick="Navigate('queHorasElaVolta')"
+        ></button>
+        <p class="name">Que Horas Ela Volta (2015)</p>
+      </div>
+
+  </body>
+</html>

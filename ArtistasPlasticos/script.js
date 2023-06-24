@@ -1,15 +1,15 @@
 window.addEventListener('load', function () {
   const buttons = document.querySelectorAll('.button');
-
-  buttons.forEach((button) => {
-    button.addEventListener('click', (e) => {
+  for(let i = 0; i < buttons.length; i++)
+  {
+    buttons[i].addEventListener('click', (e) => {
       e.preventDefault;
-      button.classList.add('animate');
+      buttons[i].classList.add('animate');
       setTimeout(() => {
-        button.classList.remove('animate');
+        buttons[i].classList.remove('animate');
       }, 600);
     });
-  });
+  }
 });
 
 function GoBack() {

@@ -9,6 +9,9 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+*:focus {
+  outline: none;
+}
 body {
   display: flex;
   display: flex;
@@ -24,6 +27,29 @@ body {
   width: 60px;
   height: 60px;
   background-color: white;
+  z-index: 10;
+}
+
+#goUp {
+  position: fixed;
+  top: 50px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  z-index: 10;
+  transform: rotate(90deg);
+}
+
+#goDown {
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  z-index: 10;
+  transform: rotate(270deg);
 }
 
 .desc {
@@ -31,6 +57,15 @@ body {
   width: 70%;
   text-align: justify;
   text-indent: 60px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+
+.noPar {
+  color: #707070;
+  width: 70%;
+  text-align: justify;
   font-size: 20px;
   letter-spacing: 3px;
   line-height: 30px;
